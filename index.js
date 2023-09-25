@@ -17,7 +17,7 @@ version,
 logger: pino({ level: 'silent'}),
 printQRInTerminal: true,
 qrTimeout: 180000,
-browser: ['belphegor' 'Chrome', '1.0.0'],
+browser: ['belphegor', 'Chrome', '1.0.0'],
 auth: state
 })
 store.bind(client.ev)
